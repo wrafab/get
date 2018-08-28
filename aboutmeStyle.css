@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+	position: fixed; top: -10; left: 0;
+	width: 100%;
+	padding-left: 10;
+	background: lightblue;
+	font-size: 12;
+	z-index: 1;
+}
+.column {float: left;}
+.column.left {
+	width: 200; height: 93%; 
+	position: fixed; top: 54; left: 0; 
+	background: lightgrey;
+	padding: 10;
+	z-index: 0;
+}
+.column.main {
+	width: 81%; height: 95%;
+	position: relative; top: 46; left: 192; 
+	background: white;
+	padding: 10;
+	z-index: -1;
+}
+.column.right {
+	width: 7%; height: 95%;
+	position: fixed; top: 46; right: 0; 
+	background: lightgrey;
+	padding: 10;
+	z-index: 0;
+}
